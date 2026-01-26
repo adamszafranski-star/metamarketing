@@ -112,16 +112,6 @@
       font-size:14px;
     }
 
-    .fade-up {
-      opacity:0;
-      transform:translateY(20px);
-      animation:fadeUp .9s ease forwards;
-    }
-
-    @keyframes fadeUp {
-      to { opacity:1; transform:translateY(0); }
-    }
-
     @media(max-width:768px){
       h1{font-size:42px}
       h2{font-size:34px}
@@ -132,7 +122,7 @@
 <body>
 
 <section class="hero">
-  <div class="container fade-up">
+  <div class="container">
     <div class="eyebrow">AI-powered partnerstwo sprzedażowe</div>
     <h1>Budujemy infrastrukturę sprzedaży,<br>która zamienia leady z Meta<br>w realne rozmowy decyzyjne.</h1>
     <p>
@@ -140,7 +130,10 @@
       oraz oczekują przewidywalnych spotkań – nie chaosu, botów i call center.
     </p>
     <a href="#call" class="cta">Umów rozmowę strategiczną</a>
+
     <p style="margin-top:40px;">AI Voice · System · Momentum</p>
+    <img src="ai-voice-momentum.jpg" alt="AI Voice · System · Momentum"
+         style="margin-top:20px;width:100%;max-width:960px;border-radius:16px;">
   </div>
 </section>
 
@@ -157,25 +150,10 @@
     <div class="eyebrow">Momentum</div>
     <h2>System, nie narzędzie</h2>
     <p>
-      Momentum to outsourcowana infrastruktura sprzedaży oparta o AI. Projektujemy i wdrażamy system,
-      który działa zawsze tak samo – niezależnie od skali kampanii.
+      Momentum to outsourcowana infrastruktura sprzedaży oparta o AI.
+      Projektujemy i wdrażamy system, który działa zawsze tak samo – niezależnie od skali kampanii.
     </p>
     <div class="system">Lead → Telefon → Kwalifikacja → Spotkanie → Close</div>
-
-    <div class="grid">
-      <div class="card">
-        <h3>Natychmiastowy kontakt</h3>
-        <p>AI dzwoni w Twoim imieniu w momencie wypełnienia formularza.</p>
-      </div>
-      <div class="card">
-        <h3>Kwalifikacja</h3>
-        <p>Rozmowy odbywają się według ustalonej logiki sprzedażowej.</p>
-      </div>
-      <div class="card">
-        <h3>Kalendarz</h3>
-        <p>Zakwalifikowane leady trafiają bezpośrednio do Twojego kalendarza.</p>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -210,6 +188,8 @@
     <h2>Founder-led. Oparte o praktykę.</h2>
     <div class="grid">
       <div class="card">
+        <img src="adam-szafranski.jpg" alt="Adam Szafrański"
+             style="width:100%;border-radius:12px;margin-bottom:20px;">
         <p><strong>Adam Szafrański</strong></p>
         <p style="font-size:14px;">Founder / Sales Infrastructure</p>
       </div>
